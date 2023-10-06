@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang="es-ES">
-    <head>
-        <meta charset="UTF-8">
-        <title>Ejercicio tabla de multiplicar del 9</title>
-        <script    type="text/javascript"  src="TaboaMultiplicar.js">
-     
+<html>
+<head>
+  <title>TABLA DEL 9</title>
+</head>
+<body>
 
-        </script>
-    </head>
-    <body>
-   
-        <h1>
-            TABLA DE MULTIPLICAR DEL 9
-        </h1>
+<h1>Tabla del 9</h1>
 
-        <button onclick="tabaoFor()"> Pulsar </button>
-           
-        </h3>
-        
-      
-    </body>
+<script>
+
+//Función
+    function generarTablaDelNueve() {
+
+      for (let i = 1; i <= 10; i++) {
+        let resultado = 9 * i;
+        document.write("9 x " +i+ "= " + resultado + "</br>");
+      }
+
+    }
+  
+    // Llamo a la función
+    generarTablaDelNueve();
+
+  </script>
+
+
+</body>
 </html>
