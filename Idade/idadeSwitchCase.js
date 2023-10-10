@@ -1,7 +1,7 @@
 var edad = prompt("  Cal e a tua idade: ");
 var edadValidada = parseInt(edad);
 
-// Función para determinar la categoría de edad
+
 function queEres (edad) {
     switch (true) {
       case edad >= 0 && edad <= 12:
@@ -18,10 +18,6 @@ function queEres (edad) {
         return "<h2> A idade debe ser un numero entre 0 e 100 </h2>";
     }
   }
-  
- 
-  
-
   
  
   if (isNaN(edadValidada)) {
