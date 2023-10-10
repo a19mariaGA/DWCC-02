@@ -2,40 +2,11 @@
 <html>
 <head>
   <title>Números primos</title>
+  <script src="numerosPrimos.js"> </script>
 </head>
 <body>
 
-<h1>Es primo: </h1>
-
-<script>
-
-function esPrimo(numero) {
-
-
-
-    if (numero <= 1) return false;
-    
-    for (let i = 2; i < numero; i++) {
-        if (numero % i === 0) {
-            return false;
-        }
-    }
-    
-    return true;
-}
-
-// Ejemplo de uso
-let miNumero = 8;
-
-if (esPrimo(miNumero)) {
-    document.write(miNumero + " es primo.");
-} else {
-    document.write(miNumero + " no es primo.");
-}
-
-
-</script>
-
+<script >  esPrimo(); </script>
 
 </body>
 </html>
